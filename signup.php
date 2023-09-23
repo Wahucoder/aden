@@ -13,11 +13,11 @@ $stmt->execute();
 $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 if (count($users) > 0) {
-    echo "<ol>"; // Start an ordered list
+    echo "<ol>"; 
     foreach ($users as $index => $user) {
         echo "<li>" . ($index + 1) . ". " . $user['username'] . "</li>";
     }
-    echo "</ol>"; // End the ordered list
+    echo "</ol>";
 } else {
     echo "No users have signed up yet.";
 }
