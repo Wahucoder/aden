@@ -3,7 +3,7 @@
 
 $details["sendToEmail"] = "benjamin.mundama@strathmore.edu";
 $details["sendToName"] = "BM";
-$details["emailSubjectLine"] = "OOP Test mail";
+$details["emailSubjectLine"] = "Registration";
 $registrationLink = "file://D:/xampp(1)/htdocs/aden/SendMail.php";
 $details["emailMessage"] = "Hello Samuel,
 You requested an account on ICS 2.2.
