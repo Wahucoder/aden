@@ -7,7 +7,7 @@ session_start();
 // Assuming you have a table named 'users' with a column 'username' for user names
 
     
-$sql = "SELECT username FROM users ORDER BY email_address ASC";
+$sql = "SELECT username FROM users ORDER BY sign_up_date ASC";
 $stmt = $pdo->prepare($sql);
 $stmt->execute();
 $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
